@@ -1,0 +1,9 @@
+The one thing that I would change in my favorite programming languague(s) would be to
+standardize the modulo (%) operator across Python and Java. Currently, using a modulo operator
+with a negative number in the numerator will produce different results in Python and Java.
+Take for example the simple arithmetic of (-6 % 5). In Python this arithmetic will evaluate to 4.
+However, in Java the same expression will evaluate to -1. This discrepancy could lead to confusion
+in the event that a programmer that is well-versed in Java used the modulo operator in Python, or vice versa. 
+
+Personally, I find the Java implementation to make more sense as -1 is the remainder of (-6 / 5).
+However, my issue lies in the difference between implementations rather than with either implementation specifically.
